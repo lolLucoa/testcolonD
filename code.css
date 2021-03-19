@@ -1179,3 +1179,7 @@
 .scrollableContainer-38zsVD {
     background-color: hsla(0,5%,0%,.3)!important;
 }
+/*Whats hopefully transparency for the chat box. */
+.scrollableContainer-2NUZem {
+    background-color: hsla(0,0%,0%,.84)!important;
+}
