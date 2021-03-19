@@ -1181,5 +1181,10 @@
 }
 /*Whats hopefully transparency for the chat box. */
 .scrollableContainer-2NUZem {
-    background-color: hsla(0,0%,0%,.84)!important;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: hsla(0,0%,100%,.1);
+    max-height: 50vh;
+    border-radius: 8px;
+    scrollbar-width: none;
 }
