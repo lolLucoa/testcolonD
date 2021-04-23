@@ -1,27 +1,9 @@
 @import url('https://anti-betterdocs.github.io/BlockBetterDocs/code.css');
+@import url('https://anti-betterdocs.github.io/BlockBetterDocs/code.css');
 /* Background 
 .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ, .appMount-3VJmYg {
-	--scrollbar-auto-thumb: #0c47a29c;
-
-	--scrollbar-thin-thumb: #0c47a29c;
-
-	--scrollbar-thin-track: #091b63a1;
-
-	--scrollbar-auto-scrollbar-color-thumb: #0c47a29c;
-
-	--scrollbar-auto-scrollbar-color-track: #091b63a1;
-
-	/* background image URL */
-	--background-image: url('https://images4.alphacoders.com/993/993395.jpg') center/cover no-repeat;
-	/* default background image hdtps://i.imgur.com/hwseeIN.jp */
-	/* Transparency */
-	--transparency-level: rgba(0,0,0,0.23); 
-	/* transparency of top windows bar works different from the top one for some reason you have to try different values to match transparecy (aprox value is top value x 3 = result) */
-	--transparency-level-top: rgba(0,0,0,0.84);
-	/* ESC Button color at settings */
-	--ESC-Button-color: rgba(43, 99, 57, 0.9);
-	/* transparency of settings page */
-	--transparency-settings: rgba(0,0,0,0.23);
+    background:url('https://images4.alphacoders.com/993/993395.jpg');
+}*/ 
 
 /* Adds transparency color to settings */
 .theme-dark .standardSidebarView-3F1I7i, .da-app .container-3gCOGc {
@@ -497,10 +479,10 @@
     background-color: rgba(0, 0, 0, 0.6)!important;
 }
 
-/* Background Changer (Original background: https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-Photos-Dark-1920x1080-PIC-WPD009376.jpg) 
+/* Background Changer (Original background: https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-Photos-Dark-1920x1080-PIC-WPD009376.jpg) */
 .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ, .appMount-3VJmYg {
-    background:url('https://images4.alphacoders.com/993/993395.jpg');
-} */
+    background:url('https://images4.alphacoders.com/993/993395.jpg'); center/cover no-repeat;
+} 
 
 /* Preview box at Voice & Videe at settings, background color */
 .theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC, .userSettingsVoice-iwdUCU .media-engine-video {
