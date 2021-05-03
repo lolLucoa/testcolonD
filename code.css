@@ -1,18 +1,3 @@
-/*
- * @name Min
- * @version 0.1.0
- * @description A modified version of Minimalist Dark from Ruben7173
- * @source https://github.com/lolLucoa/testcolonD
- * @updateUrl https://raw.githack.com/lolLucoa/testcolonD/master/code.css
- * @website https://github.com/lolLucoa/testcolonD
- * @donate 
- * @patreon 
- * @invite 
- * @author Ruben7173
- * @authorId 
- * @authorLink https://github.com/Ruben7173
-*/
-
 :root {
 	/*scrollbars */
 	--scrollbar-auto-thumb: #0c47a29c;
@@ -49,7 +34,6 @@
 }
 
 /* funny srolly things */
-}
 .theme-dark ::-webkit-scrollbar-thumb, .chat-3bRxxu ::-webkit-scrollbar-thumb {
     background-color: rgba(0,0,0,0.5) !important;
     border-color: transparent !important;
@@ -65,7 +49,7 @@
 /* aaaaaaaaaaaaaaaaaaaaa */
 .theme-dark .headerNormal-T_seeN .body-3iLsc4 .footer-1fjuF6 {
 	background: none!important;
-
+}
 /* setting transparency */
 
 .container-2lgZY8, .sidebar-2K8pFh, .activityFeed-1C0EmJ, .da-app .wrapper-1Rf91z, .channels-Ie2l6A, .container-PNkimc, .da-app .container-2Thooq, .da-app .chat-3bRxxu, .da-app .chat-3bRxxu form, .da-app .content-yTz4x3, .da-app .layer-3QrUeG, .da-app .layers-3iHuyZ, .da-app .title-3qD0b-, .da-app .headerBar-UHpsPw, .da-app .members-1998pB, .da-app .messagesWrapper-3lZDfY, .da-app #friends, .da-app .activityFeed-28jde9, .da-app .ui-standard-sidebar-view, .da-app .ui-standard-sidebar-view .content-region, .da-app .ui-standard-sidebar-view .sidebar-region, .da-app .noChannel-Z1DQK7, .da-app .gameLibrary-TTDw4Y, .da-app .applicationStore-1pNvnv, .da-app .container-3gCOGc, .da-app .root-1BQpZw, .theme-dark .gameLibrary-TTDw4Y {
@@ -192,6 +176,7 @@
 .theme-dark ::-webkit-scrollbar-track-piece, .chat-3bRxxu ::-webkit-scrollbar-track-piece, .channels-Ie2l6A ::-webkit-scrollbar-track, .chat-3bRxxu ::-webkit-scrollbar-track { 
     background: transparent !important; 
     border-color: transparent !important;
+}
 
 /* Chat Markdown */
 .theme-dark .markup-2BOw-j code, .theme-dark .markup-2BOw-j code.inline {
@@ -757,9 +742,6 @@
     border: 1px solid #000;
     border-radius: 15px;
 }
-.theme-dark .itemSubMenu-1vN_Yn:hover, .theme-dark .item-1Yvehc:hover {
-    background: hsla(0,5%,0%,.3); url(/assets/e4afe52f6863408a35654a6e5fd69ba9.svg) no-repeat 155px 50%;
-}
 
 /* Sent files background and border */
 .theme-dark .attachment-33OFj0 {
@@ -808,7 +790,7 @@
 }
 /* Same buttons but for spotify */
 .theme-dark .topSectionSpotify-1lI0-P {
-    background: hsla(141, 73%, 42%,.3);!important;
+    background: hsla(141, 73%, 42%,.3);
 }
 /* Same buttons but for Games */
 .theme-dark .topSectionPlaying-1J5E4n {
@@ -1046,7 +1028,6 @@
 /* Little box when selecting category of search */
 .theme-dark .searchAnswer-3Dz2-q, .theme-dark .searchFilter-2ESiM3 {
     background-color: hsla(0,5%,0%,.3);
-	text-align: center;
 	border: 3px solid rgb(0,0,0);
 	height: 12px;
 	position: relative;
