@@ -1267,3 +1267,27 @@
 .scrollableContainer-38zsVD {
     background-color: hsla(0,5%,0%,.3)!important;
 }
+
+
+/** ONLY WORKS WITH RAINBOW REACTIONS. **/
+.rtcConnectionStatusConnected-VRZDjy {
+    color: #47a27a;
+    animation: rainbowmention 3s infinite linear;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: rainbowmention;
+}
+
+/** will most likely not try to fix this lol
+
+.reaction-1hd86g {
+    border:transparent;
+    background-color:rgb(66, 69, 74);
+    border-radius: .3rem;
+}
+**/
