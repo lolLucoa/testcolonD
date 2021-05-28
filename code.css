@@ -26,6 +26,10 @@
 	/* transparency of settings page */
 	--transparency-settings: rgba(0,0,0,0.23);
 	
+	/* we do a little bit of malding (temp solution even tho its most likely gonna be perm lol)*/ 
+	--new-profile: #0000004a;
+	--background-floating: var(--new-profile)
+	
 }
 
 /* background */
