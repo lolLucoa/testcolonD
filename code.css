@@ -1283,6 +1283,19 @@
     animation-name: rainbowmention;
 }
 
+.banner-2QYc2d { 
+    background-color: #5e96c547 !important;
+}
+
+.headerNormal-1l1Znk {
+    color: transparent
+}
+
+.avatar-22FtUu {
+    border: 3px solid var(--background-floating);
+    background-color: var(--background-floating);
+}
+
 /** will most likely not try to fix this lol
 
 .reaction-1hd86g {
