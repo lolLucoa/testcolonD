@@ -11,62 +11,7 @@
   font-family: Edge;
   src: url(https://abs.twimg.com/a/1569889127/font/edge-icons-Regular.woff);
 }
-@media only screen and (min-width: 1350px) {
-  body:not(.gt2-opt-small-sidebars) main > div,
-  body:not(.gt2-opt-small-sidebars) main > div > div > div {
-    width: 1320px !important;
-  }
-  body:not(.gt2-opt-small-sidebars) .gt2-nav-left,
-  body:not(.gt2-opt-small-sidebars) .gt2-legacy-profile-nav-left,
-  body:not(.gt2-opt-small-sidebars) .gt2-legacy-profile-nav-center {
-    margin-left: calc((100vw - 1318px - var(--scrollbar-width)) / 2);
-  }
-  body:not(.gt2-opt-small-sidebars) .gt2-nav-right,
-  body:not(.gt2-opt-small-sidebars) .gt2-legacy-profile-nav-right {
-    margin-right: calc((100vw - 1318px - var(--scrollbar-width)) / 2);
-  }
-  body:not(.gt2-opt-small-sidebars)
-    div[role="menu"][style^="max-height: calc"].r-ipm5af {
-    right: calc((100vw - 1320px - var(--scrollbar-width)) / 2) !important;
-  }
-  body:not(.gt2-opt-small-sidebars) .gt2-search-overflow-hider {
-    right: calc(50% - 300px);
-  }
-  body:not(.gt2-opt-small-sidebars).gt2-opt-sticky-sidebars
-    div[data-testid="primaryColumn"] {
-    margin-left: 360px;
-  }
-  body:not(.gt2-opt-small-sidebars)[data-gt2-path^="settings"]
-    main
-    section[aria-labelledby="root-header"] {
-    margin-left: 360px;
-    width: 360px;
-  }
-  body:not(.gt2-opt-small-sidebars)[data-gt2-path^="settings"]
-    main
-    section[aria-labelledby="detail-header"] {
-    margin-left: 720px;
-  }
-  body:not(.gt2-opt-small-sidebars).gt2-not-logged-in.gt2-opt-sticky-sidebars
-    div[data-testid="sidebarColumn"] {
-    margin-left: 10px;
-  }
-  body:not(.gt2-opt-small-sidebars).gt2-not-logged-in:not(.gt2-opt-sticky-sidebars)
-    div[data-testid="primaryColumn"] {
-    margin: 0 10px;
-  }
-  body:not(.gt2-opt-small-sidebars).gt2-not-logged-in:not(.gt2-opt-sticky-sidebars)
-    div[data-testid="sidebarColumn"] {
-    margin-left: 0;
-  }
-  body:not(.gt2-opt-small-sidebars).gt2-not-logged-in[data-gt2-path^="settings"]
-    main
-    > div
-    > div
-    > div {
-    max-width: 1310px;
-  }
-}
+
 @media only screen and (min-width: 1230px) {
   .gt2-opt-small-sidebars main > div {
     width: 1200px !important;
